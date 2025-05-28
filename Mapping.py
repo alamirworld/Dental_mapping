@@ -42,7 +42,7 @@ st.text_input(
     help="اكتب كلمة البحث وسيتم التحديث تلقائيًا",
     on_change=update_search_text
 )
-
+cd
 # دالة البحث وعرض البيانات
 def search_and_display_all_columns(file_path, search_text):
     try:
